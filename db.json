@@ -1,0 +1,570 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "1",
+      "phone": "0912345678",
+      "email": "A1@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "role": "insider"
+    },
+    {
+      "email": "A2@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "phone": "0958783183",
+      "name": "2",
+      "id": 2,
+      "role": "insider"
+    },
+    {
+      "email": "A4@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "phone": "0911333555",
+      "name": "4",
+      "id": 3,
+      "role": "insider"
+    },
+    {
+      "email": "jahouba@gmail.com",
+      "password": "$2a$10$PRyvJPASGEi9gNI0rRg.yOb5ginXG1LNaVA7mU5P0qK3LXm.wR6ke",
+      "name": "管理端",
+      "phone": "0988168168",
+      "id": 4,
+      "role": "admin"
+    },
+    {
+      "email": "A5@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "name": "5",
+      "phone": "0926398045",
+      "role": "insider",
+      "id": 5
+    },
+    {
+      "email": "A6@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "name": "6",
+      "phone": "0911321123",
+      "role": "insider",
+      "id": 6
+    },
+    {
+      "email": "A7@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "name": "7",
+      "phone": "0911123123",
+      "role": "insider",
+      "id": 7
+    },
+    {
+      "email": "A8@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "name": "8",
+      "phone": "0912123222",
+      "role": "insider",
+      "id": 8
+    },
+    {
+      "email": "A9@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "name": "9",
+      "phone": "0911123333",
+      "role": "insider",
+      "id": 9
+    },
+    {
+      "email": "A3@store.com",
+      "password": "$2a$10$4q3djh6RcxN/8divSc16feuxmkBS3J4AneMrJJt1VZzDJDfstvyw2",
+      "name": "A3",
+      "phone": "0988168168",
+      "role": "insider",
+      "id": 10
+    }
+  ],
+  "cats": [
+    {
+      "id": "c01",
+      "name": "白湯系列"
+    },
+    {
+      "id": "c02",
+      "name": "乾拌系列"
+    },
+    {
+      "id": "c03",
+      "name": "鍋燒系列"
+    },
+    {
+      "id": "c04",
+      "name": "紅燒牛肉湯系列"
+    },
+    {
+      "id": "c05",
+      "name": "飯食系列"
+    },
+    {
+      "id": "c06",
+      "name": "炒泡麵"
+    },
+    {
+      "id": "c07",
+      "name": "美味小菜"
+    },
+    {
+      "id": "c08",
+      "name": "限量飲品"
+    },
+    {
+      "id": "c09",
+      "name": "燙青菜"
+    }
+  ],
+  "products": [
+    {
+      "id": "p0101",
+      "name": "原味豚骨叉燒",
+      "catId": "c01",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p012.jpg",
+      "comment": "寫這個有夠坐牢",
+      "isSoldOut": false,
+      "price": 80,
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ]
+    },
+    {
+      "id": "p0102",
+      "catId": "c01",
+      "name": "原味蔬菜",
+      "price": 80,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p013.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0103",
+      "catId": "c01",
+      "name": "醬油叉燒",
+      "price": 80,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p014.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0104",
+      "catId": "c01",
+      "name": "麻辣叉燒",
+      "price": 85,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p015.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0105",
+      "catId": "c01",
+      "name": "咖哩叉燒",
+      "price": 85,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0106",
+      "catId": "c01",
+      "name": "沙茶叉燒",
+      "price": 85,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0107",
+      "catId": "c01",
+      "name": "蒜辣叉燒",
+      "price": 85,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0108",
+      "catId": "c01",
+      "name": "奶油叉燒",
+      "price": 85,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0109",
+      "catId": "c01",
+      "name": "味噌叉燒",
+      "price": 85,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0110",
+      "catId": "c01",
+      "name": "南洋叉燒",
+      "price": 90,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0110",
+      "catId": "c01",
+      "name": "泡菜叉燒",
+      "price": 90,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0111",
+      "catId": "c01",
+      "name": "泰式酸辣叉燒",
+      "price": 90,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0112",
+      "catId": "c01",
+      "name": "番茄奶香蔬菜",
+      "price": 90,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0110",
+      "catId": "c01",
+      "name": "起司叉燒",
+      "price": 90,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p016.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+
+    {
+      "id": "p0201",
+      "catId": "c02",
+      "name": "紅燒牛肉乾拌",
+      "price": 90,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p021.jpg",
+      "additionIds": [
+        "AH01",
+        "AH02",
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0301",
+      "catId": "c03",
+      "name": "原味鍋燒",
+      "price": 70,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p031.jpg",
+      "additionIds": [
+        "AH01"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0401",
+      "catId": "c04",
+      "name": "紅燒牛肉(有肉)",
+      "price": 90,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p041.jpg",
+      "additionIds": [
+        "AH01"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0501",
+      "catId": "c05",
+      "name": "日式豬丼",
+      "price": 80,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p052.jpg",
+      "additionIds": [
+        "AH01"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0601",
+      "catId": "c06",
+      "name": "古早味炒泡麵",
+      "price": 65,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p061.jpg",
+      "additionIds": [
+        "AH03"
+      ],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0701",
+      "catId": "c07",
+      "name": "煙燻豬耳朵",
+      "price": 30,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p062.jpg",
+      "additionIds": [],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0801",
+      "catId": "c08",
+      "name": "特調水果茶",
+      "price": 40,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p062.jpg",
+      "additionIds": [],
+      "isSoldOut": false
+    },
+    {
+      "id": "p0901",
+      "catId": "c09",
+      "name": "古早味燙青菜",
+      "price": 40,
+      "comment": " ",
+      "img": "https://raw.githubusercontent.com/ColdingPoTaTo/resCollection/main/breakfast/menu/p062.jpg",
+      "additionIds": [],
+      "isSoldOut": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "OD1670063897679",
+      "userId": 3,
+      "name": "小明",
+      "phone": "0911333555",
+      "comment": "謝謝老闆",
+      "price": 115,
+      "orderDate": "2022-12-03",
+      "orderTime": "18:38:17",
+      "takeWay": "外帶",
+      "isPaid": false,
+      "isDone": false,
+      "details": [
+        {
+          "catId": "c06",
+          "id": "p061",
+          "name": "早餐店奶茶",
+          "price": 15,
+          "qty": 1,
+          "comment": "",
+          "additems": [
+            "AD021",
+            "AD034"
+          ]
+        },
+        {
+          "catId": "c01",
+          "id": "p012",
+          "name": "玉米蛋餅",
+          "price": 50,
+          "qty": 2,
+          "comment": "裝在一起",
+          "additems": [
+            "AD011",
+            "AD014"
+          ]
+        }
+      ]
+    }
+  ],
+  "additions": [
+    {
+      "id": "AH01",
+      "name": "麵種",
+      "isMulti": false,
+      "items": [
+        {
+          "id": "AD011",
+          "name": "拉麵",
+          "price": 0
+        },
+        {
+          "id": "AD012",
+          "name": "烏龍",
+          "price": 0
+        },
+        {
+          "id": "AD013",
+          "name": "冬粉",
+          "price": 0
+        }
+        
+      ]
+    },
+    {
+      "id": "AH02",
+      "name": "加料",
+      "isMulti": true,
+      "items": [
+        {
+          "id": "AD021",
+          "name": "豪華版",
+          "price": 60
+        },
+        {
+          "id": "AD022",
+          "name": "玉米",
+          "price": 15
+        },
+        {
+          "id": "AD023",
+          "name": "白菜",
+          "price": 15
+        },
+        {
+          "id": "AD024",
+          "name": "豆芽菜",
+          "price": 15
+        },
+        {
+          "id": "AD025",
+          "name": "高麗菜",
+          "price": 15
+        },
+        {
+          "id": "AD026",
+          "name": "起司片",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "AH03",
+      "name": "加麵",
+      "isMulti": false,
+      "items": [
+        {
+          "id": "AD031",
+          "name": "加免費麵",
+          "price": 0
+        },
+        {
+          "id": "AD033",
+          "name": "加10元麵",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "AH04",
+      "name": "醬料",
+      "isMulti": true,
+      "items": [
+        {
+          "id": "AD041",
+          "name": "番茄醬",
+          "price": 0
+        },
+        {
+          "id": "AD042",
+          "name": "芥末醬",
+          "price": 0
+        },
+        {
+          "id": "AD043",
+          "name": "辣椒醬",
+          "price": 0
+        },
+        {
+          "id": "AD044",
+          "name": "凱薩醬",
+          "price": 0
+        },
+        {
+          "id": "AD045",
+          "name": "胡麻醬",
+          "price": 0
+        },
+        {
+          "id": "AD046",
+          "name": "糖醋醬",
+          "price": 0
+        }
+      ]
+    }
+  ]
+}
